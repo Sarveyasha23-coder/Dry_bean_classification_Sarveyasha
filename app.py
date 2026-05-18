@@ -1,11 +1,9 @@
 import streamlit as st
-
 import numpy as np
-
 import joblib
 
-model = joblib.load('model.pkl')
-scaler = joblib.load('scaler.pkl')
+model = joblib.load("happyglad.pkl")
+scaler = joblib.load("bean_scaler.pkl")
 
 st.title("🌱 Dry Bean Classification App")
 
