@@ -55,7 +55,7 @@ st.markdown("### AI-Powered Bean Variety Prediction using Machine Learning")
 
 st.markdown("""
 <div class="creator-box">
-Created by <b>Sarveyasha Sodhiya</b> • B.Tech (AI & ML) Portfolio Project
+Created by <b>Sarveyasha Sodhiya</b> 
 </div>
 """, unsafe_allow_html=True)
 
