@@ -2,8 +2,10 @@ import streamlit as st
 import pickle
 import numpy as np
 
-model = pickle.load(open('model.pkl', 'rb'))
-scaler = pickle.load(open('scaler.pkl', 'rb'))
+import joblib
+
+model = joblib.load('model.pkl')
+scaler = joblib.load('scaler.pkl')
 
 st.title("🌱 Dry Bean Classification App")
 
